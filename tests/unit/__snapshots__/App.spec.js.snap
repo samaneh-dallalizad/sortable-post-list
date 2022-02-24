@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue will show errors 1`] = `
+<section
+  class="main_area"
+>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      class="flex justify-center"
+    >
+      <div
+        class="error-msg"
+      >
+        <div
+          role="alert"
+        >
+          <p
+            class="font-bold"
+          >
+            Informational message
+          </p>
+          <p
+            class="text-sm"
+          >
+            Cannot fetch posts
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`App.vue will show skeleton 1`] = `
+<section
+  class="main_area"
+>
+  <div
+    class="container mx-auto"
+  >
+    <div
+      class="lg:flex"
+    >
+      <!--PostLists-->
+      <aside
+        class="lg:w-1/2 px-10 pt-20"
+      >
+        <h2
+          class="text-white text-2xl pb-4"
+        >
+          Sortable Post List 
+        </h2>
+        <div
+          id="post_list"
+        >
+          <ul
+            class="flex flex-col space-y-4"
+          >
+            <posts-list-stub
+              posts="[object Object]"
+            />
+          </ul>
+        </div>
+      </aside>
+      <!--ActionLists-->
+      <aside
+        class="lg:w-1/2 pt-10 px-20"
+      >
+        <div
+          class="action_list"
+        >
+          <div
+            class="bg-white p-5 rounded-t-md"
+          >
+            <h3
+              class="text-[#626262]"
+            >
+              List of actions commited
+            </h3>
+          </div>
+          <div
+            class="rounded-md shadow-lg p-4"
+          >
+            <ul>
+              <actions-list-stub
+                actions=""
+              />
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+`;

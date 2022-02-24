@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsList.vue display 5 posts 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <li>
+    <span>
+      Post 1
+    </span>
+    <!--v-if-->
+    <a
+      class="bottom-50%"
+    >
+      <chevron-down-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+  </li>
+  <li>
+    <span>
+      Post 2
+    </span>
+    <a
+      class="top-0"
+    >
+      <chevron-up-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+    <a
+      class="bottom-0"
+    >
+      <chevron-down-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+  </li>
+  <li>
+    <span>
+      Post 3
+    </span>
+    <a
+      class="top-0"
+    >
+      <chevron-up-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+    <a
+      class="bottom-0"
+    >
+      <chevron-down-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+  </li>
+  <li>
+    <span>
+      Post 4
+    </span>
+    <a
+      class="top-0"
+    >
+      <chevron-up-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+    <a
+      class="bottom-0"
+    >
+      <chevron-down-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+  </li>
+  <li>
+    <span>
+      Post 5
+    </span>
+    <a
+      class="top-50%"
+    >
+      <chevron-up-icon-stub
+        class="h-5 w-5"
+      />
+    </a>
+    <!--v-if-->
+  </li>
+  
+</div>
+`;

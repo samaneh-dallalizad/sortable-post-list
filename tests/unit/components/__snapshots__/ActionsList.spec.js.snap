@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionsList.vue display 5 posts 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <li
+    class="p-4 bg-white xl:flex"
+  >
+    <div
+      class="xl:w-2/3 lg:w-full text-slate-400 flex items-center"
+    >
+       moved post 1 from index 0 to index 1
+    </div>
+    <div
+      class="xl:w-1/3 lg:w-full"
+    >
+      <button
+        class="btn"
+        type="button"
+      >
+         time travel 
+      </button>
+    </div>
+  </li>
+  <li
+    class="p-4 bg-white xl:flex"
+  >
+    <div
+      class="xl:w-2/3 lg:w-full text-slate-400 flex items-center"
+    >
+       moved post 1 from index 1 to index 2
+    </div>
+    <div
+      class="xl:w-1/3 lg:w-full"
+    >
+      <button
+        class="btn"
+        type="button"
+      >
+         time travel 
+      </button>
+    </div>
+  </li>
+  <li
+    class="p-4 bg-white xl:flex"
+  >
+    <div
+      class="xl:w-2/3 lg:w-full text-slate-400 flex items-center"
+    >
+       moved post 3 from index 1 to index 0
+    </div>
+    <div
+      class="xl:w-1/3 lg:w-full"
+    >
+      <button
+        class="btn"
+        type="button"
+      >
+         time travel 
+      </button>
+    </div>
+  </li>
+  
+</div>
+`;
